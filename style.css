@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;}
+
+
+body
+{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+p
+{
+    margin: 0.75rem 0;
+}
+/* utility class style*/
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding:  0 2rem;
+    overflow: hidden;
+    
+}
+.text-center{
+    text-align: center;
+}
+.text-primary{
+    color: rgb(82, 134, 212);
+    margin-left: 0.5rem;
+    font-size: 1.1em;
+}
+.m-heading{
+    color:rgb(255, 157, 30) ;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.gg{
+    font-size: 1.3rem;
+    padding: 0 5rem;
+    margin-bottom: 2.5rem;
+    margin-top: 3rem;
+}
+.bg-dark{
+    text-align: center;
+    background: rgb(36, 36, 36);
+    color: azure;
+    height: 73vh;
+}
+.py-1{padding: 1rem 0};
+.py-2{padding: 2rem 0};
+.py-3{padding: 3rem 0};
+
+.p-1{padding: 1.5rem };
+.p-2{padding: 10rem };
+.p-3{padding: 3rem };
+ 
+.text-center{
+    text-align: center;
+}
+
+.l-heading{
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+
+
+.lead{
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+.btn{
+    display: inline-block;
+    font-size: 1.5rem;
+    color: azure;
+    background:rgb(255, 157, 30) ;
+    padding: 0.7rem 2.2rem;
+    border: none ;
+    border-radius: 5px;
+}
+/* medeelel*/
+
+.btn-z{
+    display: inline-block;
+    font-size: 1rem;
+    color: azure;
+    background:rgb(216, 120, 96) ;
+    padding: 0.75rem 2.2rem;
+    border: none ;
+    border-radius: 5px;
+    
+}
+
+.btn-z:hover{
+    color: rgb(37, 37, 37);
+    background: azure;
+}
+.btn:hover{
+    color: rgb(37, 37, 37);
+    background: azure;
+}
+/*genral*/
+.btn-g{
+    display: inline-block;
+    font-size: 1rem;
+    color: azure;
+    background:rgb(216, 120, 96) ;
+    padding: 0.75rem 2.2rem;
+    border: none ;
+    border-radius: 5px;
+    margin: 2rem 15rem;
+    
+}
+
+.btn-g:hover{
+    color: rgb(228, 75, 15);
+    background: azure;
+}
+
+/*tses*/
+.bms{
+    color:rgb(255, 157, 30) ;
+}
+
+#navbar
+{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: rgb(255, 255, 255);
+    color: rgb(55, 73, 241);
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+    opacity: 0.8;
+    font-size: 0.9em;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#navbar .regi{
+     color: rgb(0, 0, 0);
+     background-color: rgb(255, 138, 71);
+     padding: 0.5rem ;
+     padding-left: 0;
+     padding-right: 0;
+     border-radius: 2px;
+     margin-left: 0.2rem;
+    
+
+}
+#navbar .regi :hover{
+    color: rgb(245, 245, 245);
+}
+
+#navbar ul li a 
+{
+    color: rgb(0, 0, 0);
+    padding: 0.75rem;
+    margin:0 0.4rem;
+
+}
+
+#navbar .slash{
+    font-size: 1.5em;
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+
+#navbar ul li a:hover
+{
+    color:rgb(49, 136, 250) ;
+    
+}
+/* showcase*/
+#showcase
+{
+    background: rgb(255, 255, 255) url(../photo/aa2.jpg) center center/cover ;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+
+}
+#showcase .showcase-content
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(12, 56, 92, 0.55);
+}
+#showcase .showcase-content p{
+    padding: 0 2rem;
+}
+
+#anket{
+ 
+    display:flex;
+    
+
+}
+#anket div{
+   flex: 1;
+}
+#anket .anket-img{
+    background: url(../css/photo/zz.JPG)center center/cover;
+    height: 73vh;
+    width: 5%;
+    opacity: 0.86;
+}
+#anket .anket-text{
+    padding: 0 1rem;
+    width: 50%;
+    
+}
+
+
+
+
+
+
+
+
+/* Style all input fields */
+input {
+    
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box ;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: rgb(255, 138, 71);
+    color: white;
+    width: 30%;
+    padding: 9px;
+    border: none;
+    font-size: 13px;
+    margin-right: 0.5rem;
+    border-radius: 2px;
+    
+  }
+  
+  /* Style the container for inputs */
+  .anket-form {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* The message box is shown when the user clicks on the password field */
+  #message {
+    
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  #message p {
+    padding: 5px 35px;
+    font-size: 16px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+    margin: 0;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: rgb(253, 5, 5);
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+
+
+
+
+
+ /*login*/
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+   
+    background-color: #e2e2e2;
+    margin: 15px auto; /* 15% from the top and centered */
+    border: 0px solid rgb(247, 246, 246);
+    width: 40%; /* Could be more or less, depending on screen size */
+    border-radius: 3px;
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: rgb(252, 84, 84);
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+
+
+
+
+
+  /* Bordered form */
+form {
+    border: 0 solid #c5c5c5;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(184, 182, 182);
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    
+    color: rgb(0, 0, 0);
+    padding: 0.532rem;
+    margin-right: 0.5rem;
+    background-color: rgb(115, 167, 245);
+    border: none;
+    border-radius: 2px;
+    
+    
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f56359;
+    border-radius: 3px;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+
+
+.zaavar{
+  text-align: center;
+  background: url(../photo/pexels-pixabay-38293.jpg)center center/cover;
+  background: none;
+  height: 85vh;
+}
+
+.zaavar ul li {
+  list-style: none;
+
+}
+
+
+
+
+  .site-footer
+{
+  background-color:#26272b;
+  padding:25px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
