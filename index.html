@@ -61,7 +61,8 @@
 
         <div class="anket-form bg-primary p-2">
             <h2 class="m-heading">Бүртгүүлэх</h2>
-            <p>Та ямар нэгэн ажил хайн, ажилын анкет бөглөхийг хүсвэл эхлээд бүртгүүлнэ үү.</p>
+            <p>*Та ямар нэгэн ажил хайн, ажилын анкет бөглөхийг хүсвэл нэвтэрч орно уу. 
+              Хэрэв танд бүртгэл байхгүй бол эхлээд бүртгүүлнэ үү.*</p>
             <form>
                 <div class="form-group">
                     <label for="name">Нэр</label>
@@ -82,7 +83,7 @@
                
                 <div class="form-group">
                     <label for="psw">Нууц үг (латин үсэг)*</label>
-                    <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Нууц үг бага даа 8 тэмдэгт, том, жижиг үсэг, тоо агуулсан байх ёстой" required>
+                    <input type="password" id="psw" name="psw" placeholder="Нууц үг оруулна уу" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Нууц үг бага даа 8 тэмдэгт, том, жижиг үсэг, тоо агуулсан байх ёстой" required>
                     
                  <input type="submit" value="БҮРТГҮҮЛЭХ" ><button onclick="document.getElementById('id01').style.display='block'">НЭВТРЭХ </button>
                   </form>
@@ -238,6 +239,7 @@ class="close" title="Close Modal">&times;</span>
             </div>
           </div>
         </div>
+
   </footer>
     </body>
     </html>
