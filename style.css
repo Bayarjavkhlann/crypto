@@ -150,7 +150,7 @@ p
 }
 #navbar .regi{
      color: rgb(0, 0, 0);
-     background-color: rgb(255, 138, 71);
+     background-color: rgb(255, 138, 71) ;
      padding: 0.5rem ;
      padding-left: 0;
      padding-right: 0;
@@ -250,6 +250,19 @@ input {
     margin-bottom: 16px;
   }
   
+  #anket .burt{
+    background-color: rgb(255, 138, 71);
+    color: white;
+    width: 30%;
+    padding: 9px 42px;
+    border: none;
+    font-size: 16px;
+    margin-right: 0.5rem;
+    border-radius: 2px;
+    
+   
+
+  }
   /* Style the submit button */
   input[type=submit] {
     background-color: rgb(255, 138, 71);
@@ -267,6 +280,7 @@ input {
   .anket-form {
     background-color: #f1f1f1;
     padding: 20px;
+    padding-bottom: 16px;
   }
   
   /* The message box is shown when the user clicks on the password field */
@@ -386,6 +400,7 @@ form {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
+    margin-bottom: 26px;
     display: inline-block;
     border: 1px solid rgb(184, 182, 182);
     box-sizing: border-box;
