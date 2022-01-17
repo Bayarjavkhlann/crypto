@@ -61,7 +61,7 @@
     }
 
     #type{
-        background-color: rgb(243, 115, 83);
+        background-color: rgb(84, 184, 89);
         padding: 1.3rem;
         color: #fff;
     }
@@ -89,17 +89,155 @@
 
         margin: 1.6rem 1rem;
  }
-        
+ #list .Z{
+     background: rgb(255, 91, 91);
+ }  
      
  #list ul li a{
 
-     background: rgb(131, 205, 255);
+     background: rgb(117, 228, 122);
      color: #333;
       padding: 0.5rem;
       margin-right: 1rem;
       border-radius: 3px;
      
  }
+
+
+ /*login*/
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+   
+    background-color: #e2e2e2;
+    margin: 15px auto; /* 15% from the top and centered */
+    border: 0px solid rgb(247, 246, 246);
+    width: 40%; /* Could be more or less, depending on screen size */
+    border-radius: 3px;
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: rgb(252, 84, 84);
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+
+
+
+
+
+  /* Bordered form */
+form {
+    border: 0 solid #c5c5c5;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-bottom: 26px;
+    display: inline-block;
+    border: 1px solid rgb(184, 182, 182);
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    
+    color: rgb(0, 0, 0);
+    padding: 0.532rem;
+    margin-right: 0.5rem;
+    background-color: rgb(115, 167, 245);
+    border: none;
+    border-radius: 2px;
+    
+    
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f56359;
+    border-radius: 3px;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
 
 </style>
 <body>
@@ -142,20 +280,20 @@
            <b> *Та сонирхсон ажлын төрлөө сонгон орж баталгаажуулалт хийснээр анкет бөглөх эрхтэй болно*</b>
         </p>
         <ul>
-            <li><a  href="#"><i class="far fa-building"></i> Барилгын туслах </a> (сул орон тоо:21)</li>
-            <li><a href=""><i class="fas fa-shopping-cart"></i> Худалдагч </a>(сул орон тоо:18)</li>
-            <li><a href=""><i class="fas fa-cocktail"></i> Зөөгч </a>(сул орон тоо:5)</li>
-            <li><a href=""><i class="fas fa-car"></i> Машин угаалга</a>(сул орон тоо:19)</li>
-            <li><a href=""><i class="fas fa-female"></i> Жижүүр</a>(сул орон тоо:8)</li>
-            <li><a href=""><i class="fas fa-utensils"></i> Тогооч, бэлтгэгч </a>(сул орон тоо:9)</li>
-            <li><a href=""><i class="fas fa-shield-alt"></i> Харуул хамгаалалт</a>(сул орон тоо:2)</li>
-            <li><a href=""><<i class="fas fa-baby-carriage"></i> Хүүхэд асрагч</a> (сул орон тоо:12)</li>
-            <li><a href=""><i class="fas fa-baby"></i> цэцэрлэгийн багш       </a>(сул орон тоо:3)</li>
-            <li><a href=""><i class="far fa-id-badge"></i> Архив</a>(сул орон тоо:1)</li>
-            <li><a href=""><i class="fas fa-calculator"></i> Нягтлан бодогч </a>(сул орон тоо:0)</li>
-            <li><a href=""><i class="far fa-money-bill-alt"></i> Эдийн засагч</a>(сул орон тоо:0) </li>
-            <li><a href=""><i class="fas fa-pencil-ruler"></i> Дизайнер </a>(сул орон тоо:5)</li>
-            <li><a href=""><i class="fas fa-mail-bulk"></i> Маркетинг </a>(сул орон тоо:0)</li>
+            <li><a onclick="document.getElementById('id01').style.display='block'" href="#"><i class="far fa-building"></i> Барилгын туслах </a> (сул орон тоо:21)</li>
+            <li><a onclick="document.getElementById('id01').style.display='block'" href="#"><i class="fas fa-shopping-cart"></i> Худалдагч </a>(сул орон тоо:18)</li>
+            <li><a onclick="document.getElementById('id01').style.display='block'" href="#"><i class="fas fa-cocktail"></i> Зөөгч </a>(сул орон тоо:5)</li>
+            <li><a onclick="document.getElementById('id01').style.display='block'" href="#"><i class="fas fa-car"></i> Машин угаалга</a>(сул орон тоо:19)</li>
+            <li><a onclick="document.getElementById('id01').style.display='block'" href="#"><i class="fas fa-female"></i> Жижүүр</a>(сул орон тоо:8)</li>
+            <li><a onclick="document.getElementById('id01').style.display='block'" href="#"><i class="fas fa-utensils"></i> Тогооч, бэлтгэгч </a>(сул орон тоо:9)</li>
+            <li><a onclick="document.getElementById('id01').style.display='block'" href="#"><i class="fas fa-shield-alt"></i> Харуул хамгаалалт</a>(сул орон тоо:2)</li>
+            <li><a onclick="document.getElementById('id01').style.display='block'" href="#"><i class="fas fa-baby-carriage"></i> Хүүхэд асрагч</a> (сул орон тоо:12)</li>
+            <li><a onclick="document.getElementById('id01').style.display='block'" href="#"><i class="fas fa-baby"></i> цэцэрлэгийн багш       </a>(сул орон тоо:3)</li>
+            <li><a onclick="document.getElementById('id01').style.display='block'" href="#"><i class="far fa-id-badge"></i> Архив</a>(сул орон тоо:1)</li>
+            <li><a class="Z" href=""><i class="fas fa-calculator"></i> Нягтлан бодогч </a>(сул орон тоо:0)</li>
+            <li><a class="Z" href=""><i class="far fa-money-bill-alt"></i> Эдийн засагч</a>(сул орон тоо:0) </li>
+            <li><a onclick="document.getElementById('id01').style.display='block'" href=""><i class="fas fa-pencil-ruler"></i> Дизайнер </a>(сул орон тоо:5)</li>
+            <li><a class="Z" href=""><i class="fas fa-mail-bulk"></i> Маркетинг </a>(сул орон тоо:0)</li>
             
         </ul>
     </section>
@@ -163,7 +301,37 @@
 
 
 
+<section>
+    <!-- The Modal -->
+<div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'"
+  class="close" title="Close Modal">&times;</span>
+  
+    <!-- Modal Content -->
+    <form class="modal-content animate" action="/action_page.php">
+      <div class="imgcontainer">
+      </div>
+  
+      <div class="container">
+          <h2 class="m-heading">Нэвтрэх</h2>
+        <label for="phone"><b>Утасны дугаар</b></label>
+        <input type="phone" placeholder="Дугаараа оруулна уу?" name="phone" required>
+  
+        <label for="psw"><b>Нууц үг</b></label>
+        <input type="password" placeholder="Нууц үг оруулна уу?" name="psw" required>
+  
+        <button type="button">Нэвтрэх</button>
+      </div>
+  
+      <div class="container" style="background-color:#c9c9c9">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Нууц үг <a href="#">сэргээх?</a></span>
+      </div>
+    </form>
+  </div>
 
+  
+</section>
 
 
 
