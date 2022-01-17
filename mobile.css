@@ -35,9 +35,10 @@
         margin-bottom: 0.5rem;
         text-align: center;
     }
-    #showcase {
-        height: 100vh;
+    #showcase .showcase-content {
+        height: 110%;
         margin-top: -16px;
+        padding-bottom: 16px;
     
         
       
