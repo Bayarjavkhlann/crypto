@@ -34,7 +34,7 @@ p
     font-size: 1.1em;
 }
 .m-heading{
-    color:rgb(255, 157, 30) ;
+    color:rgb(30, 83, 255) ;
     font-size: 2rem;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
@@ -150,7 +150,7 @@ p
 }
 #navbar .regi{
      color: rgb(0, 0, 0);
-     background-color: rgb(255, 138, 71) ;
+     background-color: rgb(86, 117, 255) ;
      padding: 0.5rem ;
      padding-left: 0;
      padding-right: 0;
@@ -256,7 +256,7 @@ input {
   }
   
   #anket .burt{
-    background-color: rgb(255, 138, 71);
+    background-color: rgb(66, 70, 248);
     color: white;
     width: 30%;
     padding: 9px 42px;
@@ -286,6 +286,7 @@ input {
     background-color: #f1f1f1;
     padding: 20px;
     padding-bottom: 16px;
+  
   }
   
   /* The message box is shown when the user clicks on the password field */
@@ -468,16 +469,60 @@ form {
 
 
 
-.zaavar{
-  text-align: center;
-  background: url(../photo/pexels-pixabay-38293.jpg)center center/cover;
-  background: none;
-  height: 85vh;
+
+  
+
+ #boil{
+  margin: 1.2rem;
+  
+
+  
+}
+.jobs{
+  font-size: 1.3em;
+  margin: 1.5rem 1rem;
+  color: #186bca;
+}
+#anket.zaavar{
+  margin: 1rem;
+  
+}
+#boil #zaavar ul li{
+  padding: 100px;
+  opacity: 0.5;
 }
 
-.zaavar ul li {
+#anket .box  {
+  background: url(../photo/callum-hill-oamw52SCGi0-unsplash.jpg) center center/cover;
+  height: 28vh;
   list-style: none;
+  margin: 1rem 0;
+ 
 
+}
+#anket .box1{
+  background: url(./photo/bimo-luki-mwHzM7qB7vk-unsplash.jpg) center center/cover;
+  height: 28vh;
+  list-style: none;
+  margin: 1rem 0;
+}
+#anket .box2{
+  background:  url(./photo/michael-browning-MtqG1lWcUw0-unsplash.jpg) center center/cover;
+  height: 28vh;
+  list-style: none;
+  margin: 1rem 0;
+
+  
+
+
+}
+#boil .zaavar ul li a{
+  margin: 1rem 1.5rem;
+  padding: 0.4rem;
+  color: #000000;
+  font-size: 1.2em;
+  background: #ffffff;
+  opacity: 0.8;
 }
 
 

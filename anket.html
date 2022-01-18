@@ -206,7 +206,7 @@ form {
   .cancelbtn {
     width: auto;
     padding: 10px 18px;
-    background-color: #f56359;
+    background-color: #fd8279;
     border-radius: 3px;
   }
   
@@ -238,6 +238,67 @@ form {
       width: 100%;
     }
   }
+  
+  #id01 .modal-content {
+        width: 90%;
+        
+     }
+
+     #boil{
+  margin: 1.2rem;
+
+  
+
+  
+}
+.jobs{
+  font-size: 1.3em;
+  margin: 1.5rem 1rem;
+  color: #186bca;
+}
+#boil.zaavar{
+  width: 50vh;
+  margin: 1rem;
+  
+}
+#boil #zaavar ul li{
+  padding: 100px;
+  opacity: 0.5;
+}
+
+#boil .box  {
+  background: url(../photo/callum-hill-oamw52SCGi0-unsplash.jpg) center center/cover;
+  height: 28vh;
+  list-style: none;
+  margin: 1rem 0;
+ 
+
+}
+#boil .box1{
+  background: url(./photo/bimo-luki-mwHzM7qB7vk-unsplash.jpg) center center/cover;
+  height: 28vh;
+  list-style: none;
+  margin: 1rem 0;
+}
+#boil .box2{
+  background:  url(./photo/michael-browning-MtqG1lWcUw0-unsplash.jpg) center center/cover;
+  height: 28vh;
+  list-style: none;
+  margin: 1rem 0;
+
+  
+
+
+}
+#boil .zaavar ul li a{
+  margin: 1rem 1.5rem;
+  padding: 0.4rem;
+  color: #000000;
+  font-size: 1.2em;
+  background: #ffffff;
+  opacity: 0.8;
+}
+
 
 </style>
 <body>
@@ -273,6 +334,7 @@ form {
     </section>
 
     <section id="list">
+      
         <h2 class="au">
            Ажлын жагсаалт
         </h2>
@@ -313,24 +375,41 @@ form {
       </div>
   
       <div class="container">
-          <h2 class="m-heading">Нэвтрэх</h2>
-        <label for="phone"><b>Утасны дугаар</b></label>
-        <input type="phone" placeholder="Дугаараа оруулна уу?" name="phone" required>
-  
-        <label for="psw"><b>Нууц үг</b></label>
-        <input type="password" placeholder="Нууц үг оруулна уу?" name="psw" required>
-  
-        <button type="button">Нэвтрэх</button>
-      </div>
-  
-      <div class="container" style="background-color:#c9c9c9">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-        <span class="psw">Нууц үг <a href="#">сэргээх?</a></span>
-      </div>
+          <h2 class="m-heading">баталгаажуулах заавар</h2>
+          <h3 class="m"> Анкет бөглөх хураамж: 10'000төгрөг   </h3>
+          <p>
+            Та хураамжийн төлбөрийг "5285084398 Rentsendawaa" тоот дансанд "Гүйлгээний утга: Утасны дугаар" 
+            шилжүүлснээр бид таны бүртгэлтэй утсанд анкет ийн линкийг явуулан та онлайнаар анкетаа бөглөнө.
+
+          </p>
+          <div class="container" style="background-color:#e2e2e2">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Буцах</button>
+         
+          </div>
+
     </form>
   </div>
-
+  <section id="boil">
+    <h2 class="jobs">7 хоногт хамгийн эрэлттэй байсан ажлын байрнууд</h2>
+    <div class="zaavar"> 
+      <ul >
+        <li class="box" ><a href="#home">1. Барилгачин, туслах </a></li>
+        <li class="box1"><a href="#">2. Зөөгч</a></li>
+        <li class="box2" ><a href="#">3. Тогооч, бэлтгэгч</a></li>
+    </ul>
+  </div>
+  </section>
   
+</section>
+<section id="boil">
+  <h2 class="jobs">7 хоногт хамгийн эрэлттэй байсан ажлын байрнууд</h2>
+  <div class="zaavar"> 
+    <ul >
+      <li class="box" ><a href="#home">1. Барилгачин, туслах </a></li>
+      <li class="box1"><a href="#">2. Зөөгч</a></li>
+      <li class="box2" ><a href="#">3. Тогооч, бэлтгэгч</a></li>
+  </ul>
+</div>
 </section>
 
 
