@@ -60,11 +60,14 @@ p
 }
 
 .l-heading{
-  color: rgb(252, 73, 73);
-    font-size: 3rem;
+  color: rgb(49, 49, 49);
+    font-size: 4rem;
     margin-top: 5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
     line-height: 1.1;
+    font-weight: 520;
+    font-family: 'Arial Narrow';
+    
 }
 
 
@@ -73,10 +76,11 @@ p
     display: inline-block;
     font-size: 1.5rem;
     color: azure;
-    background:rgb(255, 157, 30) ;
+    background:rgb(255, 56, 30) ;
     padding: 0.7rem 2.2rem;
     border: none ;
     border-radius: 5px;
+    margin-top: 1.5rem;
 }
 /* medeelel*/
 
@@ -97,7 +101,7 @@ p
 }
 .btn:hover{
     color: rgb(37, 37, 37);
-    background: azure;
+    background: rgb(122, 168, 255);
 }
 /*genral*/
 .btn-g{
@@ -133,7 +137,6 @@ p
     z-index: 1;
     padding: 0.5rem;
     padding-right: 1.5rem;
-    opacity: 0.9;
     font-size: 1em;
 }
 #navbar ul{
@@ -142,8 +145,8 @@ p
     list-style: none;
 }
 #navbar .regi{
-     color: rgb(0, 0, 0);
-     background-color: rgb(247, 117, 77) ;
+     color: rgb(255, 255, 255);
+     background-color: rgb(255, 98, 50) ;
      padding: 0.5rem ;
      padding-left: 0;
      padding-right: 0;
@@ -153,12 +156,12 @@ p
 
 }
 #navbar .regi :hover{
-    color: rgb(245, 245, 245);
+    color: rgb(255, 255, 255);
 }
 
 #navbar ul li a 
 {
-    color: rgb(0, 0, 0);
+    color: rgb(41, 41, 41);
     padding: 0.75rem;
     margin:0 0.4rem;
 
@@ -173,7 +176,7 @@ p
 
 #navbar ul li a:hover
 {
-    color:rgb(49, 136, 250) ;
+    color:rgb(255, 255, 255) ;
     
 }
 /* showcase*/
@@ -182,8 +185,10 @@ p
 
     
     height: 102vh;
-    color: rgb(255, 255, 255);
-    
+    color: rgb(243, 11, 11);
+    background-color: rgba(0, 0, 0, 0.4);
+    background: url(./photo/TSK-1317-BLOG-10.jpg) center center / cover;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 #showcase .showcase-content
@@ -202,22 +207,112 @@ p
     bottom: 0;
     
 }
+
+#showcase .showcase-content h3{
+  color: #000;
+  margin-bottom: 1rem;
+  
+}
 #wall
 {
-  display: inline-block;
+    display: flex;
+    
+
 }
-#wallet{
-  padding: 1.2rem 5rem;
-  margin-top: 0;
+
+
 
  
+ 
+
+ 
+
+input#wallet{
+  margin: 0;
 }
 #coins{
-padding: 0.5rem 1.2rem;
-margin-bottom: 0;
-border-radius: 2rem;
-background-color: #fff7af;
-color: #004391;
+
+padding: 0 1rem;
+border-radius: 5px;
+margin-left: 8px;
+
+color: #000000;
+background-color: #cfe5ff;
+}
+.wallet {
+  margin: 0rem -8px;
+  margin-top: 0;
+  
+}
+#web1{
+  display: flex;
+  background-color: #aae8ff;
+  padding: 5rem;
+  
+  
+}
+#web1 .webs1{
+  display: block;
+  margin: 5rem 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+#web1 img{
+  margin: 1rem 10rem;
+}
+.vl {
+   
+  border-left: 6px solid rgb(52, 174, 255);
+  height: 160px;
+  margin-left: 5rem;
+  margin-top: 2.5rem;
+
+}
+
+#web2{
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #aae8ff;
+  padding: 5rem;
+  
+  
+}
+#web2 .webs2{
+  display: block;
+  margin: 5rem 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+#web2 img{
+  margin: 1rem 10rem;
+}
+#web2 .vl{
+  margin-right: 6rem;
+  margin-left: 0;
+}
+
+
+
+#web3{
+  display: flex;
+  background-color: #aae8ff;
+  padding: 5rem;
+  
+  
+}
+#web3 .webs3{
+  display: block;
+  margin: 5rem 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+#web3 img{
+  margin: 1rem 10rem;
+
+  
+}
+#webs h3{
+  color: #ff5506;
 }
 
 #anket{
@@ -411,9 +506,9 @@ form {
   
   /* Full-width inputs */
   input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    width: 90%;
+    padding: 1.2rem 6rem;
+    margin: 0rem 1rem;
     margin-bottom: 26px;
     display: inline-block;
     border: 1px solid rgb(184, 182, 182);

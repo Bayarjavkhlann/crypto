@@ -34,17 +34,23 @@
         margin-bottom: 0.5rem;
         text-align: center;
     }
+    .l-heading{
+        margin: 0rem 1.5rem;
+    }
     #showcase{
         height: 102vh;
     }
     #showcase .showcase-content {
     
         margin-top: -16px;
-       
+    }
+        #showcase .showcase-content h3{
+          text-align: center;
+        }
     
         
       
-    }
+    
     #showcase .btn{
         padding: 0.3rem 2rem;
         border: none ;
@@ -58,7 +64,7 @@
          font-size: 0.9rem;
          padding: 0 0;
      }
-
+  
      #anket{
          flex-direction: column;
      }
@@ -69,3 +75,6 @@
         
      }
     }
+#web1 img{
+    display: none;
+}
